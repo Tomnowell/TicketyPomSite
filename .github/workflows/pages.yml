@@ -18,11 +18,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: true    # IMPORTANT for Tella
           fetch-depth: 0
-
-      - name: Update submodules
-        run: git submodule update --init --recursive
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
@@ -42,18 +38,6 @@ jobs:
       - name: Build site
         working-directory: site
         run: hugo --minify --destination ../_site
-
-      - name: Verify theme directory
-        run: ls -la themes/tella
-
-      - name: Debug themes directory
-        run: ls -la themes
-
-      - name: Force clone submodule
-        run: |
-          rm -rf themes/tella
-          git submodule deinit -f themes/tella
-          git submodule update --init --recursive
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
