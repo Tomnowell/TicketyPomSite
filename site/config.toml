@@ -1,3 +1,6 @@
 baseURL = 'https://ticketypom.com/'
 languageCode = 'en-us'
 title = 'Tickety Pom'
+
+[outputs]
+home = ["HTML"]
