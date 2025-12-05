@@ -1,4 +1,3 @@
 baseURL = 'https://ticketypom.com/'
 languageCode = 'en-us'
 title = 'Tickety Pom'
-theme = ''
