@@ -106,6 +106,28 @@ a:hover {
     text-decoration: underline;
 }
 
+/* Section Styles */
+.section-light {
+    background: white;
+    color: var(--neutral-dark);
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.section-dark {
+    background: var(--neutral-dark);
+    color: white;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.section-accent {
+    background: var(--primary-color);
+    color: white;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
 /*
 Hero Section Styles
 */
@@ -177,21 +199,22 @@ Hero Section Styles
 
 .feature-list {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 2rem;
 }
 
 .feature-item {
-    background: white;
+    background: var(--neutral-light);
     padding: 2rem;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     max-width: 300px;
+    color: white;
 }
 
 .feature-item h3 {
-    color: var(--primary-color);
+    color: var(--accent-color);
     margin-bottom: 1rem;
 }
 
