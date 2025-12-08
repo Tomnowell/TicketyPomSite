@@ -1,0 +1,129 @@
+/*
+Theme Variables
+*/
+:root {
+    --primary-color: #FA582F;
+    --secondary-color: #FA2F97;
+    --accent-color: #30FA74;
+    --neutral-dark: #547A61;
+    --neutral-medium: #7A5C54;
+    --neutral-light: #7A5468;
+}
+
+/*
+Global Styles
+*/
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: var(--neutral-medium);
+    color: var(--neutral-dark);
+    line-height: 1.8;
+}
+
+header {
+    background: var(--primary-color);
+    color: white;
+    padding: 3rem 1rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+footer {
+    background: var(--neutral-dark);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/*
+Button Styles
+*/
+.button {
+    background: var(--neutral-light);
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: background 0.2s ease;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.button:hover {
+    background: var(--secondary-color);
+}
+
+/*
+Container Styles
+*/
+.container {
+    max-width: 1200px;
+    margin: 4rem auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/*
+Section Styles
+*/
+section {
+    margin-bottom: 4rem;
+}
+
+h1, h2, h3 {
+    color: var(--accent-color);
+}
+
+blockquote {
+    font-style: italic;
+    color: var(--neutral-dark);
+    border-left: 4px solid var(--primary-color);
+    padding-left: 1.5rem;
+    margin: 2rem 0;
+}
+
+a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/*
+Hero Section Styles
+*/
+.hero {
+    text-align: center;
+    padding: 5rem 1rem;
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: white;
+    border-radius: 12px;
+    margin-bottom: 4rem;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    color: var(--accent-color);
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
