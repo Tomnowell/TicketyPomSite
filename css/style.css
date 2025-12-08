@@ -127,3 +127,28 @@ Hero Section Styles
     font-size: 1.5rem;
     margin-bottom: 2rem;
 }
+
+/* Navigation Bar Styles */
+.nav-bar {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background: var(--neutral-dark);
+    padding: 1rem 0;
+    margin: 0;
+}
+
+.nav-bar li {
+    margin: 0 1rem;
+}
+
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.2s ease;
+}
+
+.nav-bar a:hover {
+    color: var(--accent-color);
+}
