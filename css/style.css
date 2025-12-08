@@ -328,3 +328,13 @@ form button:hover {
 p {
     color: white;
 }
+
+/* Adjusted Paragraph Styles */
+.section-light p {
+    color: var(--neutral-dark);
+}
+
+.section-dark p,
+.section-accent p {
+    color: white;
+}
