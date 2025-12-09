@@ -188,6 +188,41 @@ Hero Section Styles
     margin-bottom: 2rem;
 }
 
+/* Adjust Hero Section Images */
+.hero-images {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.hero-image {
+    max-width: 45%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    object-fit: contain;
+}
+
+/* Hero Section CTA Button */
+.cta-button {
+    background-color: var(--primary-color); /* Original color */
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: var(--secondary-color); /* Original hover color */
+}
+
 /* Adjusted Navigation Bar Styles */
 .nav-bar {
     list-style: none;
