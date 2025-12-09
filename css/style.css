@@ -153,10 +153,11 @@ a:hover {
 .section-custom {
     text-align: left; 
     background: var(--neutral-medium);
-    color: white;
     padding: 4rem 2rem !important;
-    border-radius: 8px;
+    border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 2rem auto;
+    max-width: 1200px;
 }
 
 /*
@@ -301,6 +302,20 @@ blockquote cite {
 
 #cta .button:hover {
     background: var(--secondary-color);
+}
+
+#privacy {
+    text-align: left;
+    padding: 4rem 2rem;
+    background: var(--neutral-medium);
+    color: white;
+    border-radius: 12px;
+    margin: 4rem 0;
+} 
+
+#privacy .p {
+    font-size: 1.5 rem;
+    margin-bottom: 2rem;
 }
 
 /* Contact Form Styles */
