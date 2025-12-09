@@ -17,7 +17,7 @@ body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: var(--neutral-medium);
+    background: white;
     color: var(--neutral-dark);
     line-height: 1.8;
 }
@@ -78,11 +78,32 @@ Container Styles
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
+/* Outer Container for Privacy Policy */
+.outer-container {
+    background: var(--neutral-medium);
+    padding: 2rem;
+    border-radius: 12px;
+}
+
+/* Inner Container for Privacy Policy */
+.inner-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 /*
 Section Styles
 */
 section {
     margin-bottom: 4rem;
+    background: white;
+    color: var(--neutral-dark);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Ensure sections are left-aligned */
 }
 
 h1, h2, h3 {
@@ -126,6 +147,16 @@ a:hover {
     color: white;
     padding: 4rem 2rem;
     text-align: center;
+}
+
+/* Custom Section for Privacy Policy */
+.section-custom {
+    text-align: left; 
+    background: var(--neutral-medium);
+    color: white;
+    padding: 4rem 2rem !important;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 /*
