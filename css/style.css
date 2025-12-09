@@ -17,7 +17,7 @@ body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: white;
+    background: var(--neutral-medium);
     color: var(--neutral-dark);
     line-height: 1.8;
 }
